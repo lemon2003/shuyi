@@ -63,8 +63,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     // 初始化 Supabase
-    const SUPABASE_URL = 'https://xxntbizfeyvpaasftlux.supabase.co';
-    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh4bnRiaXpmZXl2cGFhc2Z0bHV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAxODg4NjQsImV4cCI6MjA4NTc2NDg2NH0.Mu-Pj297Zd-tJ9tF2DTARXgijcvQGQBJsMBAX0y3VSo';
+    const SUPABASE_URL = 'https://lslgursmabhdnpegnetp.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzbGd1cnNtYWJoZG5wZWduZXRwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAyNTc2NzAsImV4cCI6MjA4NTgzMzY3MH0.yZZsh87v5-xSzbduy1qJQP1jinfriJ07L5TLhnXh8jc';
     const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
       global: { fetch: (url, options = {}) => { options.credentials = 'omit'; return fetch(url, options); } }
     });
